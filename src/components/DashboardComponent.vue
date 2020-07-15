@@ -2,7 +2,12 @@
   <div>
     <h3>Top Heroes</h3>
     <div class="grid grid-pad">
-      <router-link v-for="hero in heroes" :key="hero.id" class="col-1-4" :to="`/detail/${hero.id}`">
+      <router-link
+        v-for="hero in heroes"
+        :key="hero.id"
+        class="col-1-4"
+        :to="`/detail/${hero.id}`"
+      >
         <div class="module hero">
           <h4>{{ hero.name }}</h4>
         </div>
