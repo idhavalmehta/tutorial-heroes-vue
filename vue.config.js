@@ -1,4 +1,4 @@
 module.exports = {
   publicPath:
-    process.env.NODE_ENV === 'production' ? '/vue-heroes-tutorial/' : '/'
+    process.env.NODE_ENV === 'production' ? '/tutorial-heroes-vue/' : '/'
 };
